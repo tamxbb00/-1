@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tamx AI Image Generator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="logo4.png">
+</head>
+<body>
+    <div class="container">
+        <h1>Tamx AI Image Generator</h1>
+        <div class="input">
+            <label for="input">Create an image from Text prompt :</label>
+            <input type="text" id="input" placeholder="Enter a Text to Generate The Image">
+            <button id="btn">Generate Image <img src="gen.svg" alt="Generate"></button>
+        </div>
+        <div class="output">
+            <div class="image">
+                <img id="image" src="" alt="">
+                <img id="svg" src="image.svg" alt="">
+                <img id="loading" src="1.load.webp" alt="">
+            </div>
+            <div class="btns">
+                <button id="download">Download <img src="down.svg" alt="Download"></button>
+                <button id="reset">Reset <img src="reset.svg" alt="Reset"></button>
+            </div>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
